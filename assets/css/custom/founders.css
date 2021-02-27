@@ -1,0 +1,150 @@
+.founder a.main-button-icon {
+    font-size: 13px;
+    border-radius: 25px;
+    padding: 13px 25px;
+    background-color: #5fb759;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.founder a.main-button-icon.our-team {
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.founder a.main-button-icon i {
+    margin-left: 5px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.founder a.main-button-icon:hover i {
+    padding-left: 5px;
+}
+
+.founder .our-team-button {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*
+--------------------------------------------
+testimonials
+--------------------------------------------
+*/
+
+#testimonials {
+    padding: 80px 0px;
+    padding: 50px 0px;
+    background-image: url(../../images/slide-03.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#testimonials .section-heading {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+#testimonials .section-heading h2 {
+    margin-top: 30px;
+}
+
+#testimonials .item {
+    position: relative;
+    text-align: center;
+}
+
+#testimonials .item h4 {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+
+#testimonials .item span {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#testimonials .item .member-thumb {
+    position: relative;
+}
+
+#testimonials .item .hover-effect {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+#testimonials .item .hover-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#testimonials .item:hover .hover-effect {
+    opacity: 1;
+    visibility: visible;
+}
+
+#testimonials .item .hover-effect ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+#testimonials .item .hover-effect ul li a {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #5fb759;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+#testimonials .item .hover-effect ul li a:hover {
+    color: #fff;
+    background-color: #5fb759;
+}
+
+#testimonials .owl-carousel {
+    padding-bottom: 60px;
+}

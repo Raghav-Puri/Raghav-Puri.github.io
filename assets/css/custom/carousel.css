@@ -1,0 +1,43 @@
+@media (max-width: 576px) {
+    .Modern-Slider .item a {
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Modern-Slider .item a.main-filled-button {
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .Modern-Slider .item h3 {
+        font-size: 27px;
+    }
+
+    .Modern-Slider .item h5 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .Modern-Slider .item h3 {
+        font-size: 24px;
+    }
+
+    .Modern-Slider .item h5 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 575px) {
+    .Modern-Slider .item h3 {
+        font-size: 21px;
+    }
+
+    .Modern-Slider .item h5 {
+        font-size: 19px;
+    }
+}

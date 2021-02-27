@@ -1,0 +1,74 @@
+/*
+--------------------------------------------
+our_teams_page
+--------------------------------------------
+*/
+
+#header .img-fill img {
+    width: 100%;
+}
+
+#testimonials.our-team .owl-carousel .owl-dots span {
+    background: #5fb759;
+}
+
+#testimonials.our-team {
+    background: white;
+    margin-top: 50px;
+}
+
+#testimonials.our-team .section-heading, #team-members .section-heading {
+    text-align: left;
+    color: #212529;
+    margin-bottom: 60px;
+}
+
+#testimonials.our-team .item h4 {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212529;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+
+#testimonials.our-team .item span {
+    color: #212529;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#testimonials.our-team .item .member-thumb {
+    border: 2px solid #5fb759;
+}
+
+#team-members {
+    margin-bottom: 50px;
+}
+
+#team-members .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#team-members .flex-item {
+    margin: 15px;
+}
+
+#team-members .flex-image:hover {
+    filter: none;
+    -webkit-filter: none;
+    border: 1.5px solid #5fb759;
+}
+
+#team-members .flex-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
