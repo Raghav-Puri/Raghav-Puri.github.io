@@ -33,6 +33,13 @@
         }
     })
 
+    $(window).load(function() {
+        console.log('window load')
+        $grid.isotope({
+            filter: '.all'
+        })
+    })
+
     $(".Modern-Slider").slick({
         autoplay: true,
         autoplaySpeed: 10000,
