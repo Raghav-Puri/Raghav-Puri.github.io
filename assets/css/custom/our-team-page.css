@@ -8,22 +8,21 @@ our_teams_page
     width: 100%;
 }
 
-#testimonials.our-team .owl-carousel .owl-dots span {
+#founders.our-team .owl-carousel .owl-dots span {
     background: #5fb759;
 }
 
-#testimonials.our-team {
+#founders.our-team {
     background: white;
-    margin-top: 50px;
 }
 
-#testimonials.our-team .section-heading, #team-members .section-heading {
+#founders.our-team .section-heading, #team-members .section-heading {
     text-align: left;
     color: #212529;
     margin-bottom: 60px;
 }
 
-#testimonials.our-team .item h4 {
+#founders.our-team .item h4 {
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
@@ -33,7 +32,7 @@ our_teams_page
     margin-bottom: 7px;
 }
 
-#testimonials.our-team .item span {
+#founders.our-team .item span {
     color: #212529;
     font-weight: 500;
     font-size: 13px;
@@ -41,7 +40,7 @@ our_teams_page
     letter-spacing: 0.5px;
 }
 
-#testimonials.our-team .item .member-thumb {
+#founders.our-team .item .member-thumb {
     border: 2px solid #5fb759;
 }
 

@@ -45,7 +45,7 @@ testimonials
 --------------------------------------------
 */
 
-#testimonials {
+#founders {
     padding: 80px 0px;
     padding: 50px 0px;
     background-image: url(../../images/slide-03.jpg);
@@ -54,22 +54,22 @@ testimonials
     background-size: cover;
 }
 
-#testimonials .section-heading {
+#founders .section-heading {
     text-align: center;
     color: #fff;
     margin-bottom: 60px;
 }
 
-#testimonials .section-heading h2 {
+#founders .section-heading h2 {
     margin-top: 30px;
 }
 
-#testimonials .item {
+#founders .item {
     position: relative;
     text-align: center;
 }
 
-#testimonials .item h4 {
+#founders .item h4 {
     font-size: 17px;
     font-weight: 700;
     text-transform: uppercase;
@@ -79,7 +79,7 @@ testimonials
     margin-bottom: 7px;
 }
 
-#testimonials .item span {
+#founders .item span {
     color: #fff;
     font-weight: 500;
     font-size: 13px;
@@ -87,11 +87,11 @@ testimonials
     letter-spacing: 0.5px;
 }
 
-#testimonials .item .member-thumb {
+#founders .item .member-thumb {
     position: relative;
 }
 
-#testimonials .item .hover-effect {
+#founders .item .hover-effect {
     cursor: pointer;
     position: absolute;
     top: 0;
@@ -106,7 +106,7 @@ testimonials
     transition: all 0.5s ease 0s;
 }
 
-#testimonials .item .hover-content {
+#founders .item .hover-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -114,17 +114,17 @@ testimonials
     width: 100%;
 }
 
-#testimonials .item:hover .hover-effect {
+#founders .item:hover .hover-effect {
     opacity: 1;
     visibility: visible;
 }
 
-#testimonials .item .hover-effect ul li {
+#founders .item .hover-effect ul li {
     display: inline-block;
     margin: 0px 5px;
 }
 
-#testimonials .item .hover-effect ul li a {
+#founders .item .hover-effect ul li a {
     width: 32px;
     height: 32px;
     display: inline-block;
@@ -140,11 +140,11 @@ testimonials
     transition: all 0.3s ease 0s;
 }
 
-#testimonials .item .hover-effect ul li a:hover {
+#founders .item .hover-effect ul li a:hover {
     color: #fff;
     background-color: #5fb759;
 }
 
-#testimonials .owl-carousel {
+#founders .owl-carousel {
     padding-bottom: 60px;
 }
