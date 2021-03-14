@@ -408,6 +408,14 @@ header
     color: #1e1e1e!important;
 }
 
+.background-header .main-nav .nav li.company-profile {
+    color: #1e1e1e!important;
+}
+
+.background-header .main-nav .nav li.company-profile:hover {
+    color: #5fb759!important;
+}
+
 .background-header .main-nav .nav li:hover a {
     color: #5fb759!important;
 }
@@ -464,6 +472,21 @@ header
 .header-area .main-nav .nav li {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.header-area .main-nav .nav li.company-profile {
+    border: 1px solid;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 10px;
+}
+
+.header-area .main-nav .nav li.company-profile a {
+    display: inline;
+}
+
+.header-area .main-nav .nav li.company-profile i {
+    vertical-align: middle;
 }
 
 .header-area .main-nav .nav li a {
