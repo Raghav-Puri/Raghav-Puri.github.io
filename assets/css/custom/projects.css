@@ -133,3 +133,176 @@ projects
         margin-bottom: 0px;
     }
 }
+
+.img-fill .projects-carousel {
+    height: 100%;
+    opacity: 0.5;
+    vertical-align: middle;
+    min-width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+
+#projects-image1 {
+    background-image: url("../../images/projects/carousel/desktop/DIL-Gurgaon_desk.jpg");
+}
+
+#projects-image2 {
+    background-image: url("../../images/projects/carousel/desktop/dps_international_desk.jpg");
+}
+
+#projects-image3 {
+    background-image: url("../../images/projects/carousel/desktop/britania_guwahati_desk.jpg");
+}
+
+#projects-image4 {
+    background-image: url("../../images/projects/carousel/desktop/expo_GNoida.jpg");
+}
+
+#projects-image5 {
+    background-image: url("../../images/projects/carousel/desktop/Paras_school_desk.jpg");
+}
+
+#projects-image6 {
+    background-image: url("../../images/projects/carousel/desktop/vega_desk.jpg");
+}
+
+#projects-image7 {
+    background-image: url("../../images/projects/carousel/desktop/varun_nuh_desk.jpg");
+}
+
+#projects-image8 {
+    background-image: url("../../images/projects/carousel/desktop/jubilant_GNoida.jpg");
+}
+
+#projects-image9 {
+    background-image: url("../../images/projects/carousel/desktop/pepsi1.jpg");
+}
+
+#projects-image10 {
+    background-image: url("../../images/projects/carousel/desktop/britannia_bharuch.jpg");
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image1 {
+        background-image: url("../../images/projects/carousel/tablet/DIL-Gurgaon_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image2 {
+        background-image: url("../../images/projects/carousel/tablet/dps_international_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image3 {
+        background-image: url("../../images/projects/carousel/tablet/britania_guwahati_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image4 {
+        background-image: url("../../images/projects/carousel/tablet/expo_GNoida_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image5 {
+        background-image: url("../../images/projects/carousel/tablet/Paras_school_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image6 {
+        background-image: url("../../images/projects/carousel/tablet/vega_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image7 {
+        background-image: url("../../images/projects/carousel/tablet/varun_nuh_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image8 {
+        background-image: url("../../images/projects/carousel/tablet/jubilant_GNoida_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image9 {
+        background-image: url("../../images/projects/carousel/tablet/pepsi1_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #projects-image10 {
+        background-image: url("../../images/projects/carousel/tablet/britannia_bharuch_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image1 {
+        background-image: url("../../images/projects/carousel/mobile/DIL_Gurgaon_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image2 {
+        background-image: url("../../images/projects/carousel/mobile/dps_international_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image3 {
+        background-image: url("../../images/projects/carousel/mobile/britania_guwahati_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image4 {
+        background-image: url("../../images/projects/carousel/mobile/expo_GNoida_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image5 {
+        background-image: url("../../images/projects/carousel/mobile/Paras_school_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image6 {
+        background-image: url("../../images/projects/carousel/mobile/vega_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image7 {
+        background-image: url("../../images/projects/carousel/mobile/varun_nuh_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image8 {
+        background-image: url("../../images/projects/carousel/mobile/jubilant_GNoida_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image9 {
+        background-image: url("../../images/projects/carousel/mobile/pepsi1_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #projects-image10 {
+        background-image: url("../../images/projects/carousel/mobile/britannia_bharuch_mob.jpg");
+    }
+}

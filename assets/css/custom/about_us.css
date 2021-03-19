@@ -1,0 +1,82 @@
+/*
+---------------------------------------------
+subscribe
+---------------------------------------------
+*/
+
+.img-fill .about-us-carousel {
+    height: 100%;
+    opacity: 0.5;
+    vertical-align: middle;
+    min-width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+
+#about-us-image1 {
+    background-image: url("../../images/about_us/desktop/office_1_desk.jpg");
+}
+
+#about-us-image2 {
+    background-image: url("../../images/about_us/desktop/office_2_desk.jpg");
+}
+
+#about-us-image3 {
+    background-image: url("../../images/about_us/desktop/office_3_desk.jpg");
+}
+
+#about-us-image4 {
+    background-image: url("../../images/about_us/desktop/office_4_desk.jpg");
+}
+
+@media screen and (max-width: 992px) {
+    #about-us-image1 {
+        background-image: url("../../images/about_us/tablet/office_1_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #about-us-image2 {
+        background-image: url("../../images/about_us/tablet/office_2_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #about-us-image3 {
+        background-image: url("../../images/about_us/tablet/office_3_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #about-us-image4 {
+        background-image: url("../../images/about_us/tablet/office_4_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #about-us-image1 {
+        background-image: url("../../images/about_us/phone/office_1_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #about-us-image2 {
+        background-image: url("../../images/about_us/phone/office_2_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #about-us-image3 {
+        background-image: url("../../images/about_us/phone/office_3_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #about-us-image4 {
+        background-image: url("../../images/about_us/phone/office_4_mob.jpg");
+    }
+}

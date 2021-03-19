@@ -1,0 +1,82 @@
+/*
+---------------------------------------------
+subscribe
+---------------------------------------------
+*/
+
+.img-fill .index-carousel {
+    height: 100%;
+    opacity: 0.5;
+    vertical-align: middle;
+    min-width: 100%;
+    position: relative;
+    display: inline-block;
+    max-width: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+
+#index-image1 {
+    background-image: url("../../images/projects/carousel/desktop/dps_international_desk.jpg");
+}
+
+#index-image2 {
+    background-image: url("../../images/projects/carousel/desktop/DIL-Gurgaon_desk.jpg");
+}
+
+#index-image3 {
+    background-image: url("../../images/projects/carousel/desktop/vega_desk.jpg");
+}
+
+#index-image4 {
+    background-image: url("../..images/projects/carousel/desktop/pepsi.jpg");
+}
+
+@media screen and (max-width: 992px) {
+    #index-image1 {
+        background-image: url("../../images/projects/carousel/tablet/dps_international_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #index-image2 {
+        background-image: url("../../images/projects/carousel/tablet/DIL-Gurgaon_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #index-image3 {
+        background-image: url("../../images/projects/carousel/tablet/vega_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #index-image4 {
+        background-image: url("../../images/projects/carousel/tablet/pepsi_tab.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #index-image1 {
+        background-image: url("../../images/projects/carousel/mobile/dps_international_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #index-image2 {
+        background-image: url("../../images/projects/carousel/mobile/DIL_Gurgaon_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #index-image3 {
+        background-image: url("../../images/projects/carousel/mobile/vega_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #index-image4 {
+        background-image: url("../../images/projects/carousel/mobile/pepsi_mob.jpg");
+    }
+}

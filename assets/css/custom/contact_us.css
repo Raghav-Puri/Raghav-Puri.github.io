@@ -13,22 +13,22 @@ subscribe
     display: inline-block;
     max-width: none;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
 }
 
-@media screen and (max-width: 500px) {
-    #contact-us-main-image {
-        background-image: url("../../images/contact_us/mobile/contact_us_mob.jpg");
-    }
+#contact-us-main-image {
+    background-image: url("../../images/contact_us/desktop/contact_us_desk.jpg");
 }
 
-@media screen and (max-width: 1799px) {
+@media screen and (max-width: 992px) {
     #contact-us-main-image {
         background-image: url("../../images/contact_us/tablet/contact_us_tab.jpg");
     }
 }
 
-@media (min-width: 1800px) {
+@media screen and (max-width: 576px) {
     #contact-us-main-image {
-        background-image: url("../../images/contact_us/desktop/contact_us_desk.jpg");
+        background-image: url("../../images/contact_us/mobile/contact_us_mob.jpg");
     }
 }
