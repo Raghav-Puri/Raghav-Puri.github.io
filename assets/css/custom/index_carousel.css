@@ -30,7 +30,7 @@ subscribe
 }
 
 #index-image4 {
-    background-image: url("../..images/projects/carousel/desktop/pepsi.jpg");
+    background-image: url("../../images/projects/carousel/desktop/pepsi.jpg");
 }
 
 @media screen and (max-width: 992px) {
