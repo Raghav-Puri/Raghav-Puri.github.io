@@ -32,3 +32,20 @@ subscribe
         background-image: url("../../images/contact_us/mobile/contact_us_mob.jpg");
     }
 }
+
+#contact-us .multi-line-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 992px) {
+    #contact-us .multi-line-text {
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #contact-us-title {
+        visibility: hidden;
+    }
+}

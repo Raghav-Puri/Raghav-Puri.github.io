@@ -17,6 +17,15 @@ subscribe
     object-fit: cover;
 }
 
+#about .certificate {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#about .certificate .certificate-text {
+    font-weight: 700;
+}
+
 #about-us-image1 {
     background-image: url("../../images/about_us/desktop/office_1_desk.jpg");
 }
@@ -78,5 +87,11 @@ subscribe
 @media screen and (max-width: 576px) {
     #about-us-image4 {
         background-image: url("../../images/about_us/phone/office_4_mob.jpg");
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #about-us-title {
+        visibility: hidden;
     }
 }

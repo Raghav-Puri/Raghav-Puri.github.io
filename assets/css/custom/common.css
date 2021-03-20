@@ -778,6 +778,11 @@ header
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+    .header-area .main-nav .nav li.company-profile {
+        border: 0px;
+        color: #1e1e1e;
+        background: #f7f7f7;
+    }
     .header-area .main-nav .nav li a {
         height: 50px !important;
         line-height: 50px !important;
