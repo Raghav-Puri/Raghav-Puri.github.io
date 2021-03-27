@@ -28,7 +28,7 @@ subscribe
 }
 
 #about-us-image1 {
-    background-image: url("../../images/about_us/desktop/office_1_desk.jpg");
+    background-image: url("../../images/about_us/desktop/entrance.jpg");
 }
 
 #about-us-image2 {
@@ -45,7 +45,7 @@ subscribe
 
 @media screen and (max-width: 992px) {
     #about-us-image1 {
-        background-image: url("../../images/about_us/tablet/office_1_tab.jpg");
+        background-image: url("../../images/about_us/tablet/entrance.jpg");
     }
 }
 
@@ -69,7 +69,7 @@ subscribe
 
 @media screen and (max-width: 576px) {
     #about-us-image1 {
-        background-image: url("../../images/about_us/phone/office_1_mob.jpg");
+        background-image: url("../../images/about_us/phone/entrance_mob.jpg");
     }
 }
 
