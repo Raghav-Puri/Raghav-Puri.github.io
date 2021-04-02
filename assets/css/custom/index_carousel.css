@@ -33,6 +33,10 @@ subscribe
     background-image: url("../../images/projects/carousel/desktop/pepsi.jpg");
 }
 
+#index-image5 {
+    background-image: url("../../images/projects/carousel/desktop/expo_GNoida.jpg");
+}
+
 @media screen and (max-width: 992px) {
     #index-image1 {
         background-image: url("../../images/projects/carousel/tablet/dps_international_tab.jpg");
@@ -57,6 +61,12 @@ subscribe
     }
 }
 
+@media screen and (max-width: 992px) {
+    #index-image5 {
+        background-image: url("../../images/projects/carousel/tablet/expo_GNoida_tab.jpg");
+    }
+}
+
 @media screen and (max-width: 576px) {
     #index-image1 {
         background-image: url("../../images/projects/carousel/mobile/dps_international_mob.jpg");
@@ -78,5 +88,11 @@ subscribe
 @media screen and (max-width: 576px) {
     #index-image4 {
         background-image: url("../../images/projects/carousel/mobile/pepsi_mob.jpg");
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #index-image5 {
+        background-image: url("../../images/projects/carousel/mobile/expo_GNoida_mob.jpg");
     }
 }

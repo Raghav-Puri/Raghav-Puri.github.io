@@ -27,8 +27,12 @@ subscribe
     align-content: center;
 }
 
+.certificate-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #about-us-image1 {
-    background-image: url("../../images/about_us/desktop/entrance.jpg");
+    background-image: url("../../images/about_us/desktop/aboutus_desk.jpg");
 }
 
 #about-us-image2 {
@@ -45,7 +49,7 @@ subscribe
 
 @media screen and (max-width: 992px) {
     #about-us-image1 {
-        background-image: url("../../images/about_us/tablet/entrance.jpg");
+        background-image: url("../../images/about_us/tablet/aboutus_tab.jpg");
     }
 }
 
@@ -69,7 +73,7 @@ subscribe
 
 @media screen and (max-width: 576px) {
     #about-us-image1 {
-        background-image: url("../../images/about_us/phone/entrance_mob.jpg");
+        background-image: url("../../images/about_us/phone/aboutus_mob.jpg");
     }
 }
 
